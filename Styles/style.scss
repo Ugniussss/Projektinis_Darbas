@@ -1,0 +1,128 @@
+$margin: 0 auto;
+$header-nav-bg-color: #fff;
+$header-font-family: arial;
+$header-text-color: #111;
+
+body{
+ background-color: #e2def3;
+}
+.main-style {
+
+  margin: $margin;
+  width: 1000px;
+}
+a{
+  text-decoration: none;
+}
+header{
+  nav{
+    width: 100%;
+    height: 59px;
+    background-color: $header-nav-bg-color;
+    ul{
+      float: left;
+      li{
+        float: left;
+        list-style: none;
+        a{
+          font-family: $header-font-family;
+          font-size: 15px;
+          padding: 10px;
+          color: $header-text-color;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+.login-style{
+  float: right;
+  a{
+    display: block;
+    width: 59px;
+    height: 59px;
+    border: none;
+    padding-right: 50px;
+    padding-left: 15px;
+    float: left;
+    background-color: #fff;
+    font-family: $header-font-family;
+    font-size: 15px;
+    color: $header-text-color;
+    line-height: 59px;
+    cursor: pointer;
+  }
+  form{
+    float: left;
+    padding-top: 15px;
+    input{
+      float: left;
+      width: 140px;
+      height: 30px;
+      padding: 0px 10px;
+      margin-right: 10px;
+      border: none;
+      background-color: #ccc;
+      font-family: $header-font-family;
+      font-size: 15px;
+      color: $header-text-color;
+      line-height: 30px;
+      }
+    }
+    button{
+       float: left;
+       width: 140px;
+       height: 30px;
+       margin-right: 10px;
+       border: none;
+       font-size: 15px;
+       background-color: #e2def3;
+       font-family: $header-font-family;
+       color: $header-text-color;
+       cursor: pointer;
+     }
+  }
+button:hover{
+  background-color: #fff;
+}
+.main-section-style {
+  padding-top: 30px;
+
+  h2{
+    font-family: $header-font-family;
+    font-size: 30px;
+    color: $header-text-color;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+.signup-style{
+
+  width: 400px;
+  margin: $margin;
+  padding-top: 30px;
+  input{
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #fff;
+    font-family: $header-font-family;
+    font-size: 15px;
+    color: $header-text-color;
+    line-height: 40px;
+  }
+  button{
+    margin: $margin;
+    display: block;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-family: $header-font-family;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+  }
+}

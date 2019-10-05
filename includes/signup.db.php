@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_POST['signup-submit'])){
+if (isset($_POST['submit'])){
 
     include_once "dbh.db.php";
 

@@ -1,0 +1,107 @@
+body {
+  background-color: #e2def3; }
+
+.main-style {
+  margin: 0 auto;
+  width: 1000px; }
+
+a {
+  text-decoration: none; }
+
+header nav {
+  width: 100%;
+  height: 59px;
+  background-color: #fff; }
+  header nav ul {
+    float: left; }
+    header nav ul li {
+      float: left;
+      list-style: none; }
+      header nav ul li a {
+        font-family: arial;
+        font-size: 15px;
+        padding: 10px;
+        color: #111;
+        line-height: 30px; }
+
+.login-style {
+  float: right; }
+  .login-style a {
+    display: block;
+    width: 59px;
+    height: 59px;
+    border: none;
+    padding-right: 50px;
+    padding-left: 15px;
+    float: left;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 15px;
+    color: #111;
+    line-height: 59px;
+    cursor: pointer; }
+  .login-style form {
+    float: left;
+    padding-top: 15px; }
+    .login-style form input {
+      float: left;
+      width: 140px;
+      height: 30px;
+      padding: 0px 10px;
+      margin-right: 10px;
+      border: none;
+      background-color: #ccc;
+      font-family: arial;
+      font-size: 15px;
+      color: #111;
+      line-height: 30px; }
+  .login-style button {
+    float: left;
+    width: 140px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    font-size: 15px;
+    background-color: #e2def3;
+    font-family: arial;
+    color: #111;
+    cursor: pointer; }
+
+button:hover {
+  background-color: #fff; }
+
+.main-section-style {
+  padding-top: 30px; }
+  .main-section-style h2 {
+    font-family: arial;
+    font-size: 30px;
+    color: #111;
+    line-height: 50px;
+    text-align: center; }
+
+.signup-style {
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 30px; }
+  .signup-style input {
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 15px;
+    color: #111;
+    line-height: 40px; }
+  .signup-style button {
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer; }

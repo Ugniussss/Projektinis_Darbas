@@ -4,10 +4,16 @@ require "header.php";
 
 ?>
 
-    <main>
-        <p>Tu esi atsijungęs!</p>
-        <p>Tu esi prisijungęs!</p>
-    </main>
+ <section class="main-section-style">
+     <div class="main-style">
+         <?php
+            if(isset($_SESSION['u_id']))
+            {
+                echo "Tu esi prisijungęs!";
+            }
+         ?>
+     </div>
+ </section>
 
 <?php
 

@@ -3,23 +3,21 @@
 require "header.php";
 
 ?>
-
-    <main>
-        <div>
-            <section>
-                <h1>Registruotis</h1>
-                <form action="includes/signup.db.php" method="POST">
+            <section class="main-section-style">
+                <div class="main-style">
+                <h2>Registruotis</h2>
+                <form class="signup-style" action="includes/signup.db.php" method="POST">
 
                     <input type="text" name="username" placeholder="Vartotojo Vardas">
                     <input type="text" name="email" placeholder="Elektroninis paštas">
                     <input type="password" name="pass" placeholder="Slaptažodis">
                     <input type="password" name="passwordRepeat" placeholder="Pakartok slaptažodį">
-                    <button type="submit" name="signup-submit">Registruotis</button>
+                    <button type="submit" name="submit">Registruotis</button>
 
                 </form>
+                </div>
             </section>
-        </div>
-    </main>
+
 
 <?php
 
