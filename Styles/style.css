@@ -105,3 +105,51 @@ button:hover {
     font-size: 15px;
     color: #fff;
     cursor: pointer; }
+
+footer {
+  border-top: 1px solid black;
+  height: 50px; }
+
+footer p {
+  float: right;
+  text-align: right;
+  width: 50%;
+  font-size: 1.1em;
+  line-height: 50px;
+  color: #7b7b7b; }
+
+.menu-style {
+  border-bottom: 3px solid grey;
+  border-left: 3px solid grey;
+  background-color: #C0C0C0;
+  border-radius: 5%;
+  width: 15em;
+  margin-top: 5px;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 30px;
+  grid-row: 1 / span 2; }
+  .menu-style li {
+    margin-bottom: 10px;
+    list-style-type: none; }
+    .menu-style li span {
+      font-family: arial;
+      font-size: 20px; }
+
+a:link {
+  color: black; }
+
+a:visited {
+  color: black; }
+
+a:hover {
+  color: red; }
+
+a:active {
+  color: green;
+  font-style: italic; }
+
+.clothes {
+  text-align: center;
+  font-size: 20px;
+  border-right: 1px solid black; }

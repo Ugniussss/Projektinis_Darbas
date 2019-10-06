@@ -13,7 +13,10 @@ if (isset($_POST['submit'])){
     if (empty($username) || empty($email) || empty($pass) || empty($passwordRepeat)){
         header("location: ../signup.php?error=emptyfields");
         exit();
-
+    }
+    if($pass !== $passwordRepeat){
+        header("location: ../signup.php?error=passworderror");
+        exit();
     }
     else {
         if(!preg_match("/^[a-zA-Z]*$/", $username))
@@ -40,7 +43,7 @@ if (isset($_POST['submit'])){
                     $hashedPass = password_hash($pass, PASSWORD_DEFAULT);
                     $sql = "INSERT INTO vartotojas (username, email, pass) VALUES ('$username', '$email', '$hashedPass');";
                     $result = mysqli_query($conn, $sql);
-                    header("location: ../signup.php?success");
+                    header("location: ../signupsuccesful.php");
                     exit();
 
                 }

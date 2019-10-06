@@ -5,9 +5,8 @@ require "header.php";
 ?>
             <section class="main-section-style">
                 <div class="main-style">
-                <h2>Registruotis</h2>
+                <h2>Registracija</h2>
                 <form class="signup-style" action="includes/signup.db.php" method="POST">
-
                     <input type="text" name="username" placeholder="Vartotojo Vardas">
                     <input type="text" name="email" placeholder="Elektroninis paštas">
                     <input type="password" name="pass" placeholder="Slaptažodis">

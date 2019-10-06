@@ -9,7 +9,8 @@ session_start();
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Nike Parduotuvė</title>
+    <title>Nike JUST DO IT</title>
+    <link rel="icon" type="image/png" href="icons&images/title-icon.png"/>
     <link rel="stylesheet" type="text/css" href="Styles/style.css">
 </head>
 <body>
@@ -20,8 +21,7 @@ session_start();
             <div class="main-style">
             <ul>
                 <li><a href="index.php">Pagrindinis</a></li>
-                <li><a href="#">Naujienos</a></li>
-                <li><a href="#">Apie mus</a></li>
+               
             </ul>
             </div>
             <div class="login-style">
@@ -44,9 +44,4 @@ session_start();
             </div>
         </nav>
     </header>
-    <section class="main-section-style">
-        <div class="main-style">
-            <h2>Pagrindinis</h2>
-        </div>
-    </section>
 </html>
